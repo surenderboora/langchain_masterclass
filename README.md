@@ -33,3 +33,31 @@ GOOGLE_API_KEY=your_google_api_key_here
 ```
 
 Keep `.env` private. It is excluded from version control.
+
+### Linux and macOS
+
+Open a terminal in the project directory and create the virtual environment:
+
+```bash
+python3 -m venv .venv
+```
+
+Activate the environment:
+
+```bash
+source .venv/bin/activate
+```
+
+Install the project dependencies:
+
+```bash
+python -m pip install -r requirements.txt
+```
+
+Create the local environment file from the example:
+
+```bash
+cp .env.example .env
+```
+
+Open `.env` and replace `your_google_api_key_here` with your Google API key.
