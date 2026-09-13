@@ -4,3 +4,4 @@ langchain-core
 langchain-google-genai
 pydantic
 langchain_community
+langchain_text_splitters
